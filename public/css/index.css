@@ -1,0 +1,135 @@
+:root{
+    background: #fff;
+}
+
+*{
+    color: #000000;
+}
+
+h1{
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+#blue {
+    color: blue;
+}
+
+.box{
+    background:green;
+}
+
+div .box > p {
+    color: red;
+}
+
+.brown{
+    background: brown;
+    color: #fff;
+}
+
+ul > li{
+    background:  red;
+}
+
+button + span{
+    color: red
+}
+
+p.susid ~ p{
+    background: blue;
+    color: #fff;
+}
+
+.salo , #bread{
+    background: yellow;
+}
+
+li:first-child{
+    color: #fff;
+}
+
+.ul-1 > li:first-child{
+    color: yellow;
+}
+.ul-2 > li:first-child{
+    color: yellow;
+}
+
+.four-task > ul > li:last-child{
+    color: yellow;
+}
+
+div.only-child-task > div:only-child{
+    color: red;
+}
+
+.seven-task > p:first-of-type{
+    background: red;
+}
+
+.eight-task> p:last-of-type{
+    background: red;
+}
+
+.text-wrapper > p:only-of-type{
+background: yellow;
+}
+
+a[href]{
+    color: #fff;
+}
+
+li[value]{
+    color: yellow;
+}
+
+li[value='3']{
+    color: yellow;
+}
+
+button[class~="primary"]{
+    background: blue;
+}
+
+button[class|="secondary"]{
+    background: red;
+}
+
+.lesson-three-task-six > ul > li[class^="b"]{
+    background: #fff;
+    color: green;
+}
+
+.lesson-three-task-seven > ul > li[class*="on"]{
+    background: #fff;
+    color: green;
+}
+
+.lesson-three-task-eight > ul > li > span[class$='s']{
+    background: #fff;
+    color: blue;
+}
+
+.lesson-three-task-nine > h2::first-letter{
+    color: red;
+}
+
+.lesson-three-task-ten > p::first-line{
+    background: yellow;
+}
+
+.lesson-three-task-eleven > input::placeholder{
+    background: red;
+  }
+
+  .lesson-three-task-twelve > ul > li::before{
+    content: "->"
+  }
+
+  .lesson-three-task-thirteen > ul > li::after{
+    content: "->"
+  }
